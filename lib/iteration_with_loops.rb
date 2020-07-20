@@ -1,3 +1,4 @@
+require 'pry'
 def find_min_in_nested_arrays(src)
  array1 = 0
  int = []
@@ -12,6 +13,8 @@ def find_min_in_nested_arrays(src)
   end
   array_int.min 
   array1 += 1
+  
+  binding.pry
 end
     
  
