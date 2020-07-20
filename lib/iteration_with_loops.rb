@@ -10,8 +10,10 @@ def find_min_in_nested_arrays(src)
     
     elements += 1
   end
+  array_int.min 
+  array1 += 1
 end
-    array_int.select {|element| element.min}
+    
  
  
  
