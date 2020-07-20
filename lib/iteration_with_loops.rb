@@ -8,8 +8,9 @@ def find_min_in_nested_arrays(src)
   while elements < src[array1].count
     array_int << src[array1][elements]
     
-    
-    
+    elements += 1
+  end
+end
     array_int.select {|element| element.min}
  
  
